@@ -1,0 +1,8 @@
+.cardContainer {
+    width: 1360px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}

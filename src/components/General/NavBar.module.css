@@ -1,0 +1,54 @@
+.mainDiv {
+    background-color: black;
+
+    height: 80px;
+    width: 100%;
+    
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+
+.logoDiv {
+    color: white;
+    height: 80px;
+    font-size: x-large;
+    font-family: "syne Mono";
+    padding-left: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listDiv {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+
+.list {
+    font-family: "syne";
+    font-size: 1.7rem;
+    display: flex;
+}
+
+.list > li {
+    margin:0px 35px;
+}
+
+.langDiv {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+
+
+

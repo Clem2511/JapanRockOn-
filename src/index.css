@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*no olvidar el color blanco -> color: white;*/
+a, li, Link {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color:darkorchid;
+}
+
+.pito {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: syne;
+}
+
+
+
+
+
+
+
