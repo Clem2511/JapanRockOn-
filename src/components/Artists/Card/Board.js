@@ -10,7 +10,8 @@ function Board({profiles}){
         <div className={BoardStyle.cardContainer}>
             {
                 profiles.map(p => (
-                    <Card image = {p.image} altImage={p.altImage} name = {p.name} discogs = {p.discogs}/>
+                    <Card image = {p.image} altImage={p.altImage} description={p.description} genres={p.genres}
+                         name = {p.name} discogs = {p.discogs}/>
                 ))
             }
         </div>

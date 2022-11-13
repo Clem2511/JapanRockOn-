@@ -3,7 +3,7 @@ import profilesJP from "./resources/japaneseProfiles";
 
 const translationJP = {
     BANNER_TITLE:"JAPAN ROCK ON!",
-    BANNER_TAG:"日本の声を海外へ送る",
+    BANNER_TAG:"日本の声を海の彼方へ送る",
 
     NAV_NAME:"JRockOn!",
     NAV_ARTISTS:"音楽家",

@@ -1,21 +1,22 @@
-import Home from './components/Home/Home';
-import Artists from './components/Artists/Artists';
-import Error from './components/ErrorPage';
+import ScrollToTop from './components/ScrollToTop';
 
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'; 
+import {BrowserRouter as Router} from 'react-router-dom'; 
+import AnimatedRoutes from './components/AnimatedRoutes';
 
 //Note on this site: As to enable multiple languages, all of the text is defined in the 'src/languages/' files
+
+//pages rendered from components/AnimatedRoutes.js
+
+//ScrollToTop component displays the page starting from the top when switching routes
+
 
 function App() {
 
     return(
         <Router>
-                <Routes>
-                    <Route path = "/" element ={<Home/>} />
-                    <Route path = "/artists" element ={<Artists/>}/>
-                    <Route path = "*" element ={<Error/>}/>
-                </Routes>
-            </Router>
+            <ScrollToTop/>
+            <AnimatedRoutes/>
+        </Router>
     )
   }
 

@@ -5,7 +5,7 @@ import {useState} from 'react'
 
 
 
-function Card ({name, image, discogs, altImage}) {
+function Card ({name, image, discogs, description, genres, altImage}) {
     
     {//Allows to open/close 'ProfileCard' component when clicking on a card
     }
@@ -22,7 +22,8 @@ function Card ({name, image, discogs, altImage}) {
 //individual Card module
     return(
         <div>
-            {openProfile && <ProfileCard name = {name} altImage = {altImage} discogs ={discogs} onClick={closeHandler}/>}
+            {openProfile && <ProfileCard name = {name} altImage = {altImage} description = {description} 
+                            genres = {genres} discogs ={discogs} onClick={closeHandler}/>}
             {openProfile && <Backdrop onClick={closeHandler}/>}
             <div className = {Cardstyle.card} onClick={profileHandler}>
                 <img className = {Cardstyle.profilePic} src = {`/images/${image}`}></img>
