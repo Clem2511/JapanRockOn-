@@ -75,10 +75,10 @@ const profilesJP = [
        
     },
     {
-        name:'THE TAUPE',
+        name:'トープ',
         image:'The Taupe.jpg',
         altImage:'The TaupeAlt.jpg',
-        description:'トープ',
+        description:'',
         genres:'post punk, shoegaze',
         discogs: 'https://www.discogs.com/artist/5780996-The-Taupe'
     },
