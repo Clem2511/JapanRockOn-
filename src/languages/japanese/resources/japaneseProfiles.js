@@ -50,7 +50,7 @@ const profilesJP = [
         
     },
     {
-        name:'NUJABES',
+        name:'ヌジャベス',
         image:'Nujabes.jpg',
         altImage: 'NujabesAlt.jpg',
         description:'',
@@ -78,8 +78,8 @@ const profilesJP = [
         name:'THE TAUPE',
         image:'The Taupe.jpg',
         altImage:'The TaupeAlt.jpg',
-        description:'',
-        genres:'',
+        description:'トープ',
+        genres:'post punk, shoegaze',
         discogs: 'https://www.discogs.com/artist/5780996-The-Taupe'
     },
     {
