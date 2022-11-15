@@ -21,8 +21,8 @@ function ProfileCard({name, altImage, description, genres, discogs, onClick}){
                         <div className={ProfileStyle.x} onClick={onClick}>X</div>
                     </div>
                     <div className={ProfileStyle.textDiv}>
-                        <text>{description}</text>
-                        <text>{genres}</text>
+                        <div><text>{description}</text></div>
+                        <div><text>{genres}</text></div>
                     </div>
                     <div className={ProfileStyle.discogsDiv}>
                             <a target="_blank" rel="noreferrer"href={discogs} className={ProfileStyle.a}>

@@ -7,7 +7,7 @@
 }
 
 .feedContainer{
-    height: 100vh;
+    height: 115vh;
     width: 70rem;
 
     padding-top: 5rem;
@@ -26,6 +26,15 @@
     grid-template-columns: 2fr 1fr;
 }
 
+.h3Div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    font-size: 1.4rem;
+    background-color: #fed767;
+}
+
 
 .playlistDiv{
     border-right: solid 2px black;
@@ -37,12 +46,24 @@
     padding: 0.5rem;
 }
 
-.h3Div{
+.news{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsImageContainer{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 2.5rem;
-    font-size: 1.4rem;
-    background-color: #fed767;
+    margin: 1rem;
 }
+
+.newsImage {
+    width: 225px;
+    height: 225px;
+}
+
+
 

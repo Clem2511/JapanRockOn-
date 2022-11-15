@@ -40,10 +40,23 @@ function Home(){
                     <div className={HomeStyle.h3Div}>
                         <h3><u>{t('HOME_FOLLOW')}</u></h3>
                     </div>
+                    <div className={HomeStyle.news}>
+                        <div className={HomeStyle.newsImageContainer}>
+                            <img className={HomeStyle.newsImage} src='/images/NewsCris.png'></img>
+                            <p>{t('HOME_NEWS1')}</p>
+                        </div>
+
+                        <div className={HomeStyle.newsImageContainer}>
+                            <img className={HomeStyle.newsImage} src='/images/NewsAwakening.jpg'></img>
+                            <p>{t('HOME_NEWS2')}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
         </section>
+
+        <section className={HomeStyle.filler}></section>
         
         <FooterBar/>
 

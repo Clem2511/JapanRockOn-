@@ -12,7 +12,9 @@ const translationEN = {
     NAV_CONTACT:"Contact",
 
     HOME_PLAYLIST: "sick playlist",
-    HOME_FOLLOW: "follow us",
+    HOME_FOLLOW: "News",
+    HOME_NEWS1: "Upcoming event by Cris and Goto!",
+    HOME_NEWS2:"Awakening:Sleeping by MOTF now available!",
 
     SONGS: songsEN,
     PROFILES: profilesEN,
