@@ -7,8 +7,8 @@ import {useState} from 'react'
 
 function Card ({name, image, discogs, description, genres, altImage}) {
     
-    {//Allows to open/close 'ProfileCard' component when clicking on a card
-    }
+    //Allows to open/close 'ProfileCard' component when clicking on a card
+    
     const [openProfile, setOpenProfile] = useState(false);
 
     function profileHandler(){
