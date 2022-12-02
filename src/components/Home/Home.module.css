@@ -4,6 +4,9 @@
     background-image: url("/public/Backgroundimages/MOFD.jpg");
     object-fit:cover;
     background-size:cover;
+
+    display: flex;
+    justify-content: center;
 }
 
 .feedContainer{
@@ -16,7 +19,6 @@
     opacity: 0.9;
 
     position: relative;
-    left: calc(50% - 35rem);
 
     background-color: #e2effa;
 
@@ -63,6 +65,16 @@
 .newsImage {
     width: 225px;
     height: 225px;
+}
+
+
+
+
+@media (max-width:630px) {
+    .feedContainer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 }
 
 

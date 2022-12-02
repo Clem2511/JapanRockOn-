@@ -1,0 +1,23 @@
+.div {
+    color: white;
+    background-color: black;
+    
+    font-size:xx-large;
+    height: 125px;
+    width:100%;
+    padding-top: 3px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+@media (max-width: 774px) {
+    .div{height:155px;}
+}
+@media (max-width: 500px) {
+    .div{
+        height: 170px;
+        display: flex;
+        align-items: center;    
+    }
+    .text{display: none;}
+}

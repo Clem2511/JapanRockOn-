@@ -5,7 +5,7 @@ function Banner(){
 
     return(
         <div className={BannerStyle.div}>
-            <div className = {BannerStyle.sign}> <Bannertag/></div>
+            <div className = {BannerStyle.sign}> <Bannertag /></div>
         </div>
     );
 }

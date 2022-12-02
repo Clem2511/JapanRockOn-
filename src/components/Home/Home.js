@@ -20,7 +20,7 @@ function Home(){
         transition={{duration:0.25}}>
 
         <Banner />
-        <NavBar/>
+        {/*<NavBar/>*/}
         
         <section className={HomeStyle.section}>
 
@@ -29,7 +29,7 @@ function Home(){
                 <div className={HomeStyle.playlistDiv}>
                     <div className={HomeStyle.h3Div}>
                         <h3><u>{t('HOME_PLAYLIST')}</u></h3>
-                    </div>
+                </div>
 
 
                     <Playlist songs = {t('SONGS', {returnObjects:true})}/>
